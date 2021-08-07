@@ -6,7 +6,7 @@ VALUES ('Marketing'),
 ('Finance'),
 ('Sales');
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES ('Marketing Leader','80000', 1),
 ('Marketing Assistant','50000', 1),
 ('Engineering Leader','120000', 2),
