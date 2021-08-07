@@ -1,12 +1,12 @@
-USE manageEmployee_db
+USE manageEmployee_db;
 
 INSERT INTO department(title)
 VALUES ('Marketing'),
 ('Engineering'),
 ('Finance'),
-('Sales'),
+('Sales');
 
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ('Marketing Leader','80000', 1),
 ('Marketing Assistant','50000', 1),
 ('Engineering Leader','120000', 2),
@@ -14,7 +14,7 @@ VALUES ('Marketing Leader','80000', 1),
 ('Finance Leader','100000', 3),
 ('Finance Assistant','60000', 3),
 ('Sales Leader','110000', 4),
-('Sales Assistant','30000', 4),
+('Sales Assistant','30000', 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ('Joon','Ahn', 2, 1),
